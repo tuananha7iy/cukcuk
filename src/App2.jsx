@@ -50,7 +50,7 @@ const reducer = (state, action) => {
     case DOWN_ACTION:
       return state - 1
     default:
-      throw new Error('Invalid action')
+      return state
   }
 }
 
